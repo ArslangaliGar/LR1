@@ -1,0 +1,23 @@
+numbers = [7, 2, 5, 1, 3, 8, 4 ]
+numbers.append(2)
+print(numbers)
+numbers.insert(-3, 5)
+print(numbers)
+h = [1,2,3,4,5]
+numbers.extend(h)
+print(numbers)
+numbers.remove(7)
+print(numbers)
+numbers.pop()
+print(numbers)
+numbers.sort()
+print(numbers)
+v = numbers.count(3)
+print(v)
+z = numbers.index(2)
+print(z)
+copy = numbers.copy()
+numbers.clear()
+print(copy)
+print(numbers)
+
